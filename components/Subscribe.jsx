@@ -25,7 +25,7 @@ function Subscribe() {
                         <a>
                             <button
                                 type="button"
-                                class="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 mr-6 drop-shadow font-primary"
+                                className="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 mr-6 drop-shadow font-primary"
                             >
                                 Login
                             </button>
@@ -35,7 +35,7 @@ function Subscribe() {
                         <a>
                             <button
                                 type="button"
-                                class="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 drop-shadow font-primary"
+                                className="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 drop-shadow font-primary"
                             >
                                 Sign Up
                             </button>
@@ -56,7 +56,7 @@ function Subscribe() {
                 <input value={Referal} onChange={(e) => setReferal(e.target.value)} autoComplete='off' autoCorrect='off' type="text" className='w-full outline-none text-greenish font-primary mt-6 AddBorder placeholder-greenish' placeholder='Referall Link' />
                 <button
                     type="button"
-                    class="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-6 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-full drop-shadow font-primary mt-10 font-bold"
+                    className="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-6 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-full drop-shadow font-primary mt-10 font-bold"
                 >
                     Subscribe
                 </button>

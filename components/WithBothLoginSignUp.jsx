@@ -33,7 +33,7 @@ function WithBothLoginSignUp() {
                         <a>
                             <button
                                 type="button"
-                                class="text-white font-bold text-xl px-16 py-3 border-4 rounded-full border-white drop-shadow font-primary mt-4"
+                                className="text-white font-bold text-xl px-16 py-3 border-4 rounded-full border-white drop-shadow font-primary mt-4"
                             >
                                 Sign Up
                             </button>

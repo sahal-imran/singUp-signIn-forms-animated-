@@ -19,7 +19,7 @@ function SignUp() {
                         <a>
                             <button
                                 type="button"
-                                class="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 mr-6 drop-shadow font-primary"
+                                className="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 mr-6 drop-shadow font-primary"
                             >
                                 Login
                             </button>
@@ -29,7 +29,7 @@ function SignUp() {
                         <a>
                             <button
                                 type="button"
-                                class="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 drop-shadow font-primary"
+                                className="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-3 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-32 drop-shadow font-primary"
                             >
                                 Subscribe
                             </button>
@@ -48,14 +48,14 @@ function SignUp() {
                 <input value={Referal} onChange={(e) => setReferal(e.target.value)} autoComplete='off' autoCorrect='off' type="text" className='w-full outline-none text-greenish font-primary mt-6 AddBorder placeholder-greenish' placeholder='Referall Link' />
                 <div className='w-full flex justify-start items-center mt-6' >
                     <button
-                        class="btnn bg-gradient-to-r from-connectBtnFrom via-connectBtnVia to-connectBtnTo py-3 hover:from-connectBtnTo hover:to-connectBtnFrom text-white capitalize text-md flex justify-center items-center rounded-xl w-28 drop-shadow font-primary font-semibold"
+                        className="btnn bg-gradient-to-r from-connectBtnFrom via-connectBtnVia to-connectBtnTo py-3 hover:from-connectBtnTo hover:to-connectBtnFrom text-white capitalize text-md flex justify-center items-center rounded-xl w-28 drop-shadow font-primary font-semibold"
                     >
                         Connect
                     </button>
                 </div>
                 <button
                     type="button"
-                    class="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-6 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-full drop-shadow font-primary mt-10 font-bold"
+                    className="btnn bg-gradient-to-r from-gradBtnFrom to-gradBtnTo py-6 hover:from-gradBtnTo hover:to-gradBtnFrom text-white capitalize text-lg flex justify-center items-center rounded-xl w-full drop-shadow font-primary mt-10 font-bold"
                 >
                     Sign Up
                 </button>
